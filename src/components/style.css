@@ -1,0 +1,112 @@
+  /*Header css */
+.header{
+    width: 100%;
+    height:60px;
+    margin: 0;
+    padding-top:1px;
+    background-color: rgb(235, 227, 227);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(145, 141, 141);
+    
+}
+
+.header .heading{
+    text-align: center;
+    position: relative;
+    bottom:20px;   
+    font-family: cursive;
+    font-style:italic;
+    font-size: 35px;
+}
+
+ /*AddContact css */
+
+.addContact{
+    margin-left: 5%;
+}
+.heading_add{
+    font-family: cursive;
+    font-style:italic;
+}
+
+label{
+    font-size:25px;
+}
+input {
+    width: 90%;
+    height:40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.addbtn{
+    margin-top: 20px;
+    width: 70px;
+    height:30px;
+    border:none;
+    border-radius: 8px;
+    background-color:rgb(59, 166, 202);
+}
+
+ /*ContactList css */
+.underline{
+   border-bottom: 2px solid gray;
+   margin-top:2px;
+   padding: 2px;
+   
+}
+
+.contactList{
+   margin-left:5%;
+   margin-top:2%;   
+   width: 90%;
+}
+
+.name{
+    font-size:22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.email{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0 8px;
+    margin-top: 0;
+    
+}
+
+.number{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0;
+    margin-top: 0;
+    
+
+}
+
+.img{
+    
+    float: left;
+    padding-right: 5px;
+}
+
+.trash-icon{
+    font-size:27px;
+    float: right;
+    color: rgb(218, 57, 57);
+    
+}
+
+/* login page */
+.form{
+    width: 90%;
+    margin: auto;
+    
+}
+.input{
+    width: 30%;
+}
